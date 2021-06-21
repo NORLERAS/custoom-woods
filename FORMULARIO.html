@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tu diseño</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css"  href="IdeaForm_files/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="custom-styles.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="container-fluid header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="inicio.html">
+        <img src="d41665c8-8cac-4479-8f23-5bc3943e9388.jpg" width="90rem" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="FORMULARIO.html">¡MANDANOS TU DISEÑO!</a>                
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="inicio.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Comodas.html">Comodas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Roperos.html">Roperos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Escritorios.html">Escritorios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Nostros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contacto.html">Contacto</a>
+          </li>
+        </ul>        
+      </div>
+    </nav>
+  </div>
+  <div class="formulario">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" href="#proposito" role="button" aria-expanded="false" aria-controls="proposito">1. Propósito de la habitación</a>      
+      </li>
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" href="#size" role="button" aria-expanded="false" aria-controls="size">2. Tamaño de la habitación</a>      
+      </li>
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" href="#humedad" role="button" aria-expanded="false" aria-controls="humedad">3. Riesgo de humedad</a>      
+      </li>
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" href="#estilo" role="button" aria-expanded="false" aria-controls="estilo">4. Estilo</a>      
+      </li>
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" href="#resistencia" aria-expanded="false" aria-controls="resistencia">5. Tipo de resistencia</a>      
+      </li>
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" href="#ubicacion" aria-expanded="false" aria-controls="ubicacion">6. Ubicación del mueble</a>      
+      </li>
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" href="#facilidad" aria-expanded="false" aria-controls="facilidad">7. Ingreso del mueble</a>      
+      </li>
+      <li class="nav-item">
+        <a class="link-formulario nav-link" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="proposito size humedad estilo resistencia ubicacion ingreso">Ver todo</a>      
+      </li>
+    </ul>
+    <form id="form1" name="form1" method="POST">
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="proposito">
+            <div class="card card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="RadioGroup1" id="RadioGroup1_0" value="ESTUDIO">
+                <label class="form-check-label" for="RadioGroup1_0">
+                  SALA
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="RadioGroup1" id="RadioGroup1_1" value="RECAMARA">
+                <label class="form-check-label" for="RadioGroup1_1">
+                  COMEDOR
+                </label>
+              </div>            
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="RadioGroup1" id="RadioGroup1_3" value="RECAMARA">
+                <label class="form-check-label" for="RadioGroup1_3">
+                  ESTUDIO
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="RadioGroup1" id="RadioGroup1_4" value="RECAMARA">
+                <label class="form-check-label" for="RadioGroup1_4">
+                  HABITACIÓN
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="RadioGroup1" id="RadioGroup1_5" value="RECAMARA">
+                <label class="form-check-label" for="RadioGroup1_5">
+                  OFICINA
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="RadioGroup1" id="RadioGroup1_6" value="RECAMARA">
+                <label class="form-check-label" for="RadioGroup1_6">
+                  TERRAZA O EXTERIORES
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="RadioGroup1" id="RadioGroup1_7" value="RECAMARA">
+                <label class="form-check-label" for="RadioGroup1_7">
+                  BAÑO
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="size">
+            <div class="card card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio" id="radio" value="radio">
+                <label class="form-check-label" for="radio">
+                  MENOS DE 30m²
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio" id="radio2" value="radio2">
+                <label class="form-check-label" for="radio2">
+                  DE 30 a 50m²
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio" id="radio3" value="radio3">
+                <label class="form-check-label" for="radio3">
+                  MÁS DE 50m²
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="humedad">
+            <div class="card card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio4" id="radio4" value="radio4">
+                <label class="form-check-label" for="radio4">
+                  ALTO
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio4" id="radio5" value="radio5">
+                <label class="form-check-label" for="radio5">
+                  MEDIO
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio4" id="radio6" value="radio6">
+                <label class="form-check-label" for="radio6">
+                  BAJO
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio4" id="radio7" value="radio7">
+                <label class="form-check-label" for="radio7">
+                  NULO
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="estilo">
+            <div class="card card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio5" id="radio8" value="radio8">
+                <label class="form-check-label" for="radio8">
+                  RÚSTICO
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio5" id="radio9" value="radio9">
+                <label class="form-check-label" for="radio9">
+                  MODERNO
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="resistencia">
+            <div class="card card-body">
+              <p>NOTA: Aproximadamente la cantidad de kg que tendrá que soportar el mueble encima.</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio6" id="radio10" value="radio10">
+                <label class="form-check-label" for="radio10">
+                  ALTO (Más de 40 kg)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio6" id="radio11" value="radio11">
+                <label class="form-check-label" for="radio11">
+                  MEDIO (De 20 a 40 kg)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio6" id="radio12" value="radio12">
+                <label class="form-check-label" for="radio12">
+                  BAJO (Menos de 20 kg)
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="ubicacion">
+            <div class="card card-body">
+              <p>NOTA: Indicar si el mueble está destinado para un segundo piso.</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio7" id="radio13" value="radio13">
+                <label class="form-check-label" for="radio13">
+                  SI
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio7" id="radio14" value="radio14">
+                <label class="form-check-label" for="radio14">
+                  NO
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="ingreso">
+            <div class="card card-body">
+              <p>NOTA: Indicar si hay facilidades para ingresar el mueble por la puerta principal.</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="radio8" id="radio15" value="radio15">
+                <label class="form-check-label" for="radio15">
+                  SI
+                </label>
+              </div>
+              <div class="form-check">
+                <p>
+                  <input class="form-check-input" type="radio" name="radio8" id="radio16" value="radio16">
+                  <label class="form-check-label" for="radio16">
+                    NO
+                  </label>
+                </p>
+              </div>
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>
+              <button onClick="alert('Datos enviados ')">Enviar</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </form>      
+  </div>
+</body>
+</html>

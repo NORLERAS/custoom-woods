@@ -1,0 +1,122 @@
+/* vars */
+:root {
+    --color: #CD853F;
+    --color-dark: #222831;
+    --color-light: #EEE;
+}
+.nav-item{
+    padding: 0 0 0 1.75rem;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header{
+    padding: 0%;
+}
+
+.inicio{
+    background-image: url('intro-bg.jpg');
+}
+
+.header nav{
+    padding: 0rem 4rem;
+}
+
+.titulo{
+    color: #FFF;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 15%;
+}
+.titulo p{
+font-size: 4rem !important;
+}
+.titulo span{
+    color: var(--color);
+}
+h2{
+    font-weight: lighter;
+}
+.btn-container{
+    padding-top: 3rem;
+}
+.btn-formulario{
+ padding: .75rem 1.25rem;   
+ background-color: var(--color);
+ border-color: transparent;
+ border-radius: 12px 0;
+}
+
+#footer{
+    position: relative;
+    text-align: center;
+}
+.footer-link{
+    margin: 10px 20px;
+    color: var(--color-dark);
+}
+#copyright{
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.footer-text{
+    padding: .5rem;
+    color: var(--color-dark);
+}
+
+.title{
+    padding: 5% 25%;
+    text-align: center;
+    background-color: var(--color);
+    color: var(--color-light);
+}
+.title-comodas{
+    font-size: 4rem;
+}
+.subtitle-comodas{
+    padding-top: 1rem;
+    font-weight: 100;
+}
+
+.catalogo{
+    padding: 0px 5%;
+}
+
+.catalogo-col{
+    padding: 3%;
+}
+.card-title{
+    font-weight: bold;
+}
+.btn-compra{
+    background-color: var(--color);
+}
+.precio{
+    margin-left: 15%;
+}
+.jumbotrons{
+    padding: 2rem;
+}
+.subtitle-nosotros{
+    font-weight: 100;
+}
+.info-contacto{
+    padding: 2% 15%;
+    text-align:center;
+}
+.btn-contacto{
+    margin-top: 1rem;
+    padding: .75rem 1.25rem;   
+    background-color: var(--color);
+    border-color: transparent;
+    border-radius: 12px 0;
+}
+.btn-datos{
+    background-color: var(--color);
+    border-color: transparent;    
+}
+.formulario{
+    padding-top: 2%;
+}
